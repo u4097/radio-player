@@ -1,4 +1,4 @@
-package com.mcakir.radio.util;
+package ru.rmg.dfm.util;
 
 import android.app.Activity;
 import android.view.LayoutInflater;
@@ -6,14 +6,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
-
-import com.mcakir.radio.R;
-
-import java.util.ArrayList;
-import java.util.List;
-
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import ru.rmg.dfm.R;
+import java.util.ArrayList;
+import java.util.List;
 
 public class ShoutcastListAdapter extends BaseAdapter {
 

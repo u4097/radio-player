@@ -1,11 +1,11 @@
-package com.mcakir.radio.player;
+package ru.rmg.dfm.player;
 
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.content.ServiceConnection;
 import android.os.IBinder;
-
+import ru.rmg.dfm.player.RadioService;
 import org.greenrobot.eventbus.EventBus;
 
 public class RadioManager {

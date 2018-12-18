@@ -1,14 +1,11 @@
-package com.mcakir.radio.util;
+package ru.rmg.dfm.util;
 
 import android.content.Context;
-
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import com.mcakir.radio.R;
-
+import ru.rmg.dfm.R;
 import java.io.InputStreamReader;
 import java.io.Reader;
-import java.util.ArrayList;
 import java.util.List;
 
 public class ShoutcastHelper {

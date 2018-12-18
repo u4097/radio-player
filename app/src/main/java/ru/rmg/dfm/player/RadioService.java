@@ -1,4 +1,4 @@
-package com.mcakir.radio.player;
+package ru.rmg.dfm.player;
 
 import android.app.Service;
 import android.content.BroadcastReceiver;
@@ -18,7 +18,6 @@ import android.support.v4.media.session.MediaSessionCompat;
 import android.telephony.PhoneStateListener;
 import android.telephony.TelephonyManager;
 import android.text.TextUtils;
-
 import com.google.android.exoplayer2.ExoPlaybackException;
 import com.google.android.exoplayer2.ExoPlayerFactory;
 import com.google.android.exoplayer2.PlaybackParameters;
@@ -34,15 +33,14 @@ import com.google.android.exoplayer2.trackselection.TrackSelectionArray;
 import com.google.android.exoplayer2.upstream.DefaultBandwidthMeter;
 import com.google.android.exoplayer2.upstream.DefaultDataSourceFactory;
 import com.google.android.exoplayer2.util.Util;
-import com.mcakir.radio.R;
-
+import ru.rmg.dfm.R;
 import org.greenrobot.eventbus.EventBus;
 
 public class RadioService extends Service implements Player.EventListener, AudioManager.OnAudioFocusChangeListener {
 
-    public static final String ACTION_PLAY = "com.mcakir.radio.player.ACTION_PLAY";
-    public static final String ACTION_PAUSE = "com.mcakir.radio.player.ACTION_PAUSE";
-    public static final String ACTION_STOP = "com.mcakir.radio.player.ACTION_STOP";
+    public static final String ACTION_PLAY = "ru.rmg.dfm.player.ACTION_PLAY";
+    public static final String ACTION_PAUSE = "ru.rmg.dfm.player.ACTION_PAUSE";
+    public static final String ACTION_STOP = "ru.rmg.dfm.player.ACTION_STOP";
 
     private final IBinder iBinder = new LocalBinder();
 

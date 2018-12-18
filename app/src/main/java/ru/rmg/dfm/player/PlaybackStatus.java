@@ -1,4 +1,4 @@
-package com.mcakir.radio.player;
+package ru.rmg.dfm.player;
 
 public class PlaybackStatus {
 

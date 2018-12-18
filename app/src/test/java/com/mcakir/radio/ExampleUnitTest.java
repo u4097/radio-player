@@ -1,4 +1,4 @@
-package com.mcakir.radio;
+package ru.rmg.dfm;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package com.mcakir.radio.util;
+package ru.rmg.dfm.util;
 
 import com.google.gson.annotations.SerializedName;
 

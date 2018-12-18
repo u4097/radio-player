@@ -1,4 +1,4 @@
-package com.mcakir.radio;
+package ru.rmg.dfm;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.mcakir.radio", appContext.getPackageName());
+        assertEquals("ru.rmg.dfm", appContext.getPackageName());
     }
 }

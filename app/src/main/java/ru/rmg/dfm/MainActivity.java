@@ -1,4 +1,4 @@
-package com.mcakir.radio;
+package ru.rmg.dfm;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -10,20 +10,18 @@ import android.widget.ImageButton;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
-
-import com.mcakir.radio.player.PlaybackStatus;
-import com.mcakir.radio.player.RadioManager;
-import com.mcakir.radio.util.Shoutcast;
-import com.mcakir.radio.util.ShoutcastHelper;
-import com.mcakir.radio.util.ShoutcastListAdapter;
-
-import org.greenrobot.eventbus.EventBus;
-import org.greenrobot.eventbus.Subscribe;
-
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 import butterknife.OnItemClick;
+import ru.rmg.dfm.R;
+import ru.rmg.dfm.player.PlaybackStatus;
+import ru.rmg.dfm.player.RadioManager;
+import ru.rmg.dfm.util.Shoutcast;
+import ru.rmg.dfm.util.ShoutcastHelper;
+import ru.rmg.dfm.util.ShoutcastListAdapter;
+import org.greenrobot.eventbus.EventBus;
+import org.greenrobot.eventbus.Subscribe;
 
 public class MainActivity extends AppCompatActivity {
 

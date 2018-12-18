@@ -1,4 +1,4 @@
-package com.mcakir.radio.player;
+package ru.rmg.dfm.player;
 
 import android.app.Notification;
 import android.app.NotificationChannel;
@@ -12,9 +12,10 @@ import android.graphics.BitmapFactory;
 import android.os.Build;
 import android.support.v4.app.NotificationCompat;
 import android.support.v4.app.NotificationManagerCompat;
-
-import com.mcakir.radio.MainActivity;
-import com.mcakir.radio.R;
+import ru.rmg.dfm.MainActivity;
+import ru.rmg.dfm.R;
+import ru.rmg.dfm.player.PlaybackStatus;
+import ru.rmg.dfm.player.RadioService;
 
 public class MediaNotificationManager {
 
